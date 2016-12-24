@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!--Begin MultiRom-->
+  <remove-project name="android_bootable_recovery" />
+  <project name="nkk71/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-7.1-mrom" />
+  <project name="MR-op3/multirom" path="system/extras/multirom" remote="github" revision="mr-7.0" />
+  <project name="MR-op3/kexec-tools" path="system/extras/multirom/kexec-tools" remote="github" revision="master" />
+  <project name="Tasssadar/libbootimg" path="system/extras/libbootimg" remote="github" revision="master" />
+  <project name="multirom-leeco/multirom_adbd" path="system/extras/multirom/adbd" remote="github" revision="master" />
+<!--End MultiRom-->
+
+<!--Begin Qcom Common-->
+  <project name="TeamWin/android_device_qcom_common" path="device/qcom/common" remote="github" revision="android-6.0" />
+<!--End Qcom Common-->
+
+<!--Begin s2-->
+  <project name="LineageOS/android_kernel_leeco_msm8976" path="kernel/leeco/s2" remote="github" revision="cm-14.1" />
+  <project name="multirom-leeco/android_device_leeco_s2" path="device/leeco/s2" remote="github" revision="mrom" />
+<!--End s2-->
+
+<!--Begin x2-->
+  <project name="LineageOS/android_kernel_leeco_msm8996" path="kernel/leeco/x2" remote="github" revision="cm-14.1" />
+  <project name="multirom-leeco/android_device_leeco_x2" path="device/leeco/x2" remote="github" revision="mrom" />
+<!--End x2-->
+
+<!--Begin x3-->
+  <project name="WisniaPL/android_kernel_leeco_MT6795" path="kernel/leeco/x3" remote="github" revision="nougat" />
+  <project name="multirom-leeco/android_device_leeco_x3" path="device/leeco/x3" remote="github" revision="mrom" />
+<!--End x3-->
+
+</manifest>
+
